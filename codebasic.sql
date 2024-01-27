@@ -61,5 +61,32 @@ inner join dim_products
 on dim_products.product_code=`retail_events_db`.`fact_events`.product_code
 group by product_name
 order by IR desc limit 5;
+
+# Bottom 10 stores based on their ISU values
+select dim_stores.store_id ,(sum(`quantity_sold(after_promo)`)-sum(`quantity_sold(before_promo)`))/sum(`quantity_sold(before_promo)`)*100 as isu
+from `retail_events_db`.`fact_events`
+inner join dim_stores
+on dim_stores.store_id=`retail_events_db`.`fact_events`.store_id
+group by dim_stores.store_id
+order by isu asc
+limit 10;
+
+# Top 10 stores according to their Incremental values
+select dim_stores.store_id,(sum(base_price*`quantity_sold(after_promo)`)-sum(base_price*`quantity_sold(before_promo)`)) as IR 
+from `retail_events_db`.`fact_events`
+inner join dim_stores
+on dim_stores.store_id=`retail_events_db`.`fact_events`.store_id
+group by dim_stores.store_id
+order by IR 
+limit 10;
+
+#top 2 and bottom 2  promotion types on their Incremental revenue
+select promo_type,(sum(base_price*`quantity_sold(after_promo)`)-sum(base_price*`quantity_sold(before_promo)`)) as IR 
+from `retail_events_db`.`fact_events`
+group by promo_type
+order by IR desc;
+
+
+
  
 
