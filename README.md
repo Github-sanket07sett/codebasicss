@@ -3,15 +3,18 @@
 - [Project overview](#project-overview)
 - [Live Dashboard](#live-dashboard)
 - [Data Sources](#data-sources)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [RESULTS](#results)
+- [Tools & Technologies](#tools&technologies)
+- [Key Insights](#key-insights)
 
 ## LIVE DASHBOARD
 https://www.novypro.com/project/atliq-mart-sales-analysis-in-diwali-2023-and-sankranti-2024-
 
-### Data Sources
+## Data Sources
 https://codebasics.io/challenge/codebasics-resume-project-challenge
-
+### Tools & Technologies
+1. SQL:- Iterative analysis
+2. Excel:- Data Cleaning
+3. Power Bi:- Data Visualisation
 ## Key insights 
 1. p15 has noticeably more total revenue before promotion.
 2. 'BOGOF' & '500 cashback' have more ISU (incremental sales unit).
