@@ -1,6 +1,6 @@
 # ATLIQ MART SALES ANALYSIS DURING DIWALI AND SANKRANTI 
 ## TABLE OF CONTENTS
- -[Project overview](#project-overview)
+- [Project overview](#project-overview)
 - [Live Dashboard](#live-dashboard)
 - [Data Sources](#data-sources)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
