@@ -5,7 +5,9 @@
 - [Data Sources](#data-sources)
 - [Tools & Technologies](#tools&technologies)
 - [Key Insights](#key-insights)
-
+  
+## Project Overview
+Atliq Mart sales analysis during Diwali and Sankranti.Find key insights to determine the sales trend during these festivals & how promotion affects the sales growth during that time.
 ## LIVE DASHBOARD
 https://www.novypro.com/project/atliq-mart-sales-analysis-in-diwali-2023-and-sankranti-2024-
 
