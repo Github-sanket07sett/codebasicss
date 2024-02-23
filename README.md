@@ -11,7 +11,7 @@ https://www.novypro.com/project/atliq-mart-sales-analysis-in-diwali-2023-and-san
 
 ## Data Sources
 https://codebasics.io/challenge/codebasics-resume-project-challenge
-### Tools & Technologies
+## Tools & Technologies
 1. SQL:- Iterative analysis
 2. Excel:- Data Cleaning
 3. Power Bi:- Data Visualisation
