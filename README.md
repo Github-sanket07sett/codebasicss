@@ -9,7 +9,7 @@
 ## Project Overview
 Atliq Mart sales analysis during Diwali and Sankranti.Find key insights to determine the sales trend during these festivals & how promotion affects the sales growth during that time.
 ## LIVE DASHBOARD
-https://app.powerbi.com/view?r=eyJrIjoiODJmNTc2M2ItODI4ZS00ZmFhLTg0NTEtNGQ1N2QxOTgyM2U3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&embedImagePlaceholder=true
+[Live Link](https://app.powerbi.com/view?r=eyJrIjoiODJmNTc2M2ItODI4ZS00ZmFhLTg0NTEtNGQ1N2QxOTgyM2U3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&embedImagePlaceholder=true)
 ![Screenshot 2024-05-30 105640](https://github.com/Github-sanket07sett/codebasicss/assets/137095374/355610b2-1207-44e8-9ecc-fe746a70d643)
 ## Data Sources
 https://codebasics.io/challenge/codebasics-resume-project-challenge
